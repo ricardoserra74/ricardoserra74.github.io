@@ -5,12 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Ricardo Serra Segura</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
         .container {
             display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 20px auto;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
         }
         .column {
             flex: 1;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .section-title {
+            background: #333;
+            color: #fff;
             padding: 10px;
+            margin: 20px 0 10px;
         }
     </style>
 </head>
@@ -19,17 +60,19 @@
         <div class="column">
             <h1>RICARDO SERRA SEGURA</h1>
             <h2>RESPONSABLE DE CAPTACIÓN Y DATA ANALYTICS</h2>
-            <p>675794876</p>
-            <p>ricardoserra74@gmail.com</p>
-            <p>PERFIL LINKEDIN</p>
-            <p>Desarrollo de proyectos de Marketing Digital, entre áreas de negocio, tecnología, agencias. Amplia experiencia en el ciclo completo de un proyecto digital: detección de la necesidad (oportunidad), definición de la estrategia para cada canal digital (SEO, SEM, display, rtb, social media paid&organic, online video, email marketing), desarrollo creativo, planificación de medios, etiquetados y lanzamientos, medición y análisis.</p>
+            <div class="contact-info">
+                <p>675794876</p>
+                <p>ricardoserra74@gmail.com</p>
+                <p><a href="http://es.linkedin.com/in/ricardoserrasegura/" target="_blank">Perfil LinkedIn</a></p>
+            </div>
+            <p>Coordinación y desarrollo de proyectos de Marketing Digital, entre áreas de negocio, tecnología, agencias. Amplia experiencia en el ciclo completo de un proyecto digital: detección de la necesidad (oportunidad), definición de la estrategia para cada canal digital (SEO, SEM, display, rtb, social media paid&organic, online video, email marketing), desarrollo creativo, planificación de medios, etiquetados y lanzamientos, medición y análisis.</p>
             <p>Experiencia en ecosistema DoubleClick Digital Marketing (DBM, DS, DCM, DRM), Google Suite Analytics 360 (Analytics, Optimize, Data Looker), Google Cloud (big Query), DMP Krux y Piano, y Salesforce Marketing Cloud. Visión 360 de la actividad digital, Así como con Adobe Omniture. MMP Appsflyer.</p>
             <p>Especializado en la fase de análisis de resultados de campañas de Marketing Digital (y offline), y en su optimización. Aplicación de técnicas estadísticas a Marketing Digital. Conocimientos sólidos de Analítica Digital, diseño y medición de kpi´s, reporting, análisis, dashboards, así como de herramientas de datos de negocio y BI (SQL, SAS, Cognos, PolwerBI, Tableau, Qliksense). Sinergias con Área de Big Data, Tecnología, Actuarial, BI, Digital-UX, Suscripción, Diseño, Clientes, Call Centers para la optimización de presupuesto de canales y campañas.</p>
             <p>Cursando máster “Big Data, Data Science y Business Analytics” en UCM, algoritmos enfocados a modelización predictiva y machine learning.</p>
             <p>Profesor colaborador en The Core Enterteinment School.</p>
         </div>
         <div class="column">
-            <h2>Experiencia Profesional</h2>
+            <h2 class="section-title">Experiencia Profesional</h2>
             <p>Septiembre 2021 - actualmente: Responsable de Captación y Analítica Digital en atresplayer (Atresmedia). Implementaciones y proyectos digitales.</p>
             <p>Mayo 2019 – Septiembre 2021: Responsable de Captación (papel y digital) y Analítica Digital en Departamento de Ventas de Unidad Editorial (El Mundo, Expansión, Marca, Telva). Despliegue de Piano, DMP y automation digital marketing.</p>
             <p>Noviembre 2018 – Mayo 2019: Desplegando el departamento de Marketing Digital en Homeserve – Reparalia, para B2C.</p>
@@ -39,11 +82,11 @@
             <p>Marzo 2009 – Enero 2013: Departamento de Comunicación de Fundación Ideas: Creación de sala de prensa 2.0 para Fundación Ideas e institutos asociados. Técnico de marketing digital.</p>
             <p>Julio 2003 a Marzo 2009: Fundación Jaime Vera: Creación del departamento de formación online. Responsable de formación online.</p>
             <p>Junio 2000 a Julio 2003: Como consultor Oracle en Sopra Group.</p>
-            <h2>Herramientas</h2>
+            <h2 class="section-title">Herramientas</h2>
             <p>Análisis: Certificado Google Analytics, Adobe Omniture (Report Builder), Appsflyer, DoubleClick full stack: DBM, DCM, DRM, DS, Google Analytics 360 suite (Analytics, GTM, Optimize, Data Studio), SPSS, SAS. Gretl, IBM Cognos. SEO (Semrush, Prorank Tracker, ahrefs, Search console). Python dirigido al análisis de datos, modelización predictiva y machine learning.</p>
             <p>Bases de datos: SQL, PL/SQL, Developer 2000 Oracle (Forms, Reports, Designer), Oracle Discoverer (Business Intelligence), cubos de datos con MS SQL OLAP SERVER, desarrollo de aplicaciones con Microsoft Access. Integración, transformación y extracción de datos para la elaboración de informes y consultas. TOAD, MySql Admin. SAS Enterprise Guide, ClickView. Hive, Impala (accesos a datalake)</p>
             <p>Web y diseño: CMS (Drupal, Wordpress, Dokeos, Moodle, Prestashop, Magento, Dreamweaver, Photoshop, Prototipado (Axure, Balsamiq, iPlotz). Landing pages (Unbounce), email mkt (Retarus, Salesforce, Cheetah), CRO (Optimizely, Adobe Target).</p>
-            <h2>Formación Académica</h2>
+            <h2 class="section-title">Formación Académica</h2>
             <p>Licenciatura en Ciencias Económicas. 1992 – 1997. Universidad Autónoma de Madrid.</p>
             <p>Postgrado en “Análisis de datos en Investigación social y de Mercados”. 2007-2008. Universidad Complutense.</p>
             <p>Máster en Análisis Digital. Kschool – 2012.</p>
